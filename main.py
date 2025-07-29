@@ -28,7 +28,7 @@ class HelpDialog(QDialog):
         help_content = """
         <h2>文件查看器工具</h2>
         <p><b>作者：</b>Stakataka_3030</p>
-        <p><b>Github地址：</b><a href="https://github.com/Stakataka-3030/HOI4-Focus-tree-maker">https://github.com/Stakataka-3030/HOI4-Focus-tree-maker</a></p>
+        <p><b>Github地址：</b><a href="https://github.com/Stakataka-3030/HOI4-0-Code-GFX-Swaper/">https://github.com/Stakataka-3030/HOI4-0-Code-GFX-Swaper/</a></p>
         <p>此工具基于GPL2.0开源</p>
         
         <h3>使用说明：</h3>
@@ -39,6 +39,8 @@ class HelpDialog(QDialog):
             <li>点选"导出mod文件"会要求您选择一个文件夹。工具会在该文件夹下生成gfx文件夹。您应当将gfx文件夹复制到您在启动器创建的mod的文件夹中。并在您mod的descriptor.mod中加入dependencies={"xxx"}，其中xxx为屏幕上方显示的mod名称。</li>
             <li>然后，您可以启动游戏进行测试。</li>
         </ul>
+
+        <p>如果您的文件转化成dds时报错，请安装nvidia texture tools exporter</p>
         """
         
         self.help_text.setHtml(help_content)
